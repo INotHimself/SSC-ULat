@@ -1,0 +1,39 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    position: relative;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    
+    @media (max-width: 1020px){
+        &.lock{
+            overflow: hidden;
+        }
+    }
+}
+.container{
+    max-width: 1770px;
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+@import 'body/header.scss';
+@import 'body/intro.scss';
+@import 'body/services.scss';
+@import 'body/bunner.scss';
+@import 'body/blog.scss';
+@import 'body/footer.scss';
+
+//blog
+@import 'blog/blognews.scss';
+//galery
+@import 'galery/galery.scss';
+@import 'body/gotootop.scss';
+@import 'dopclasses.scss';
